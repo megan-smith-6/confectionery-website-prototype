@@ -51,6 +51,28 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #333;
+  background-color: #494949;
   color: #fff;
+}
+
+img {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  margin: .8em;
+}
+
+.since {
+  font-size: 1rem;
+}
+
+footer {
+  display: block;
+  background-color: #ccc;
+  text-align: center;
+  padding: .55em;
+  margin-top: 2em;
 }
