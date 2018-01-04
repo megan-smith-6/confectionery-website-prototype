@@ -65,6 +65,11 @@ img {
   text-align: center;
 }
 
+.decadent {
+  margin: 0;
+  margin-top: 1.5em;
+}
+
 main {
   margin: .8em;
 }
@@ -76,7 +81,7 @@ main {
 }
 
 .new-product {
-  background-color: #adadad;
+  background-color: #b5b5b5;
 }
 
 .new {
@@ -84,6 +89,10 @@ main {
 }
 
 .volcano-bites {
+  margin-top: 0;
+}
+
+.every-bite {
   margin-top: 0;
 }
 
@@ -98,4 +107,5 @@ footer {
   text-align: center;
   padding: .55em;
   margin-top: 2em;
+  text-align: left;
 }
