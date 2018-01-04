@@ -33,6 +33,10 @@ h1 {
   font-family: 'Nunito', sans-serif;
 }
 
+h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -66,7 +70,26 @@ main {
 }
 
 .since {
-  font-size: 1rem;
+  margin-top: 1.5em;
+  font-size: .75em;
+  text-align: center;
+}
+
+.new-product {
+  background-color: #adadad;
+}
+
+.new {
+  margin-bottom: 0;
+}
+
+.volcano-bites {
+  margin-top: 0;
+}
+
+.favourites {
+  margin-top: 1em;
+  margin-bottom: 0;
 }
 
 footer {
