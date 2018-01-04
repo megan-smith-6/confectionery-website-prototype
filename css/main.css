@@ -85,7 +85,7 @@ main {
 }
 
 .new {
-  margin-bottom: 0;
+  margin-bottom: .15em;
 }
 
 .volcano-bites {
@@ -99,6 +99,18 @@ main {
 .favourites {
   margin-top: 1em;
   margin-bottom: 0;
+}
+
+.visit-us {
+  margin-bottom: 0;
+}
+
+.opinions {
+  margin-bottom: 0;
+}
+
+.our-shop {
+  margin-top: .15em;
 }
 
 footer {
