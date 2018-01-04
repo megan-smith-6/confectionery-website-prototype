@@ -93,6 +93,11 @@ main {
   margin-top: 0;
 }
 
+.volcano-bites-image {
+  display: inline-block;
+  max-width: 18em;
+}
+
 .every-bite {
   margin-top: 0;
 }
