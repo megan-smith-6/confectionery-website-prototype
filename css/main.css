@@ -432,10 +432,6 @@ footer {
 
 @media only screen and (min-width: 100em) {
 
-  figure {
-    max-width: 64.5em;
-  }
-
   html {
     font-size: 150%;
   }
