@@ -392,16 +392,32 @@ footer {
 
 @media only screen and (min-width: 74em) {
 
+  html {
+    font-size: 120%;
+  }
+
+  .every-bite {
+    max-width: 30em;
+  }
+
   .customer-one {
     text-align: left;
     margin: 2.4em 1.8em;
     font-size: 1.2em;
+    max-width: 40em;
   }
 
   .customer-two {
     text-align: left;
     margin: 4em 1.8em 1.5em;
     font-size: 1.2em;
+    max-width: 40em;
+  }
+
+  .our-shop, .chocolate-tasting {
+    text-align: left;
+    max-width: 40em;
+
   }
 
 }
@@ -410,6 +426,18 @@ footer {
 
   html {
     font-size: 130%;
+  }
+
+}
+
+@media only screen and (min-width: 100em) {
+
+  figure {
+    max-width: 64.5em;
+  }
+
+  html {
+    font-size: 150%;
   }
 
 }
