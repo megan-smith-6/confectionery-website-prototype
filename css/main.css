@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  text-align: center;
 }
 
 header {
@@ -64,7 +65,6 @@ nav a:hover {
 img {
   display: inline-block;
   width: 100%;
-  max-width: 18em;
   text-align: center;
 }
 
@@ -79,20 +79,9 @@ main {
   text-align: center;
 }
 
-.main-img {
-  display: inline-block;
-  width: 100%;
-  max-width: 18em;
-  text-align: center;
-}
-
 .since {
-  margin: 1.5em 0;
+  margin: .5em 0 2em;
   font-size: .9em;
-  text-align: center;
-}
-
-section {
   text-align: center;
 }
 
@@ -172,27 +161,140 @@ footer {
     text-align: center;
   }
 
+  .since {
+    font-size: 1em;
+    margin: .5em 0 2.5em;
+  }
+
   .new, .favourites, .opinions, .visit-us {
-  font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   .volcano-bites, .customer-one, .our-shop {
-  margin: 0 .8em .4em;
+    margin: 0 .8em .4em;
   }
 
   .customer-two {
-  margin: .4em .8em 1.5em;
+    margin: .4em .8em 1.5em;
   }
 
 }
 
+@media only screen and (min-width: 29em) {
 
+  .new, .favourites, .opinions, .visit-us {
+    margin: 1em .6em .4em;
+  }
+
+  .customer-one-img {
+    float: left;
+    width: 4em;
+    margin: 1em .5em;
+  }
+
+  .customer-one {
+    text-align: left;
+    margin: 1.5em 1.8em;
+  }
+
+  .customer-two-img {
+    float: left;
+    width: 4em;
+    margin: 1em .5em;
+  }
+
+  .customer-two {
+    text-align: left;
+    margin: 2.7em 1.8em 1em;
+  }
+
+}
 
 @media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .customer-one-img {
+    float: left;
+    width: 4em;
+    margin: 1em .5em;
+  }
+
+  .customer-one {
+    text-align: left;
+    margin: 1.7em 1.8em;
+  }
+
+  .customer-two-img {
+    float: left;
+    width: 4em;
+    margin: 1em .5em;
+  }
+
+  .customer-two {
+    text-align: left;
+    margin: 2.7em 1.8em 1em;
+  }
+
+  figure {
+    margin: 0 5em;
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    left: .5em;
+    right: .5em;
+    bottom: -1.5em;
+    background-color: #b2b2b2;
+    border-radius: .2em;
+  }
+
+  .since {
+    font-size: 1.2em;
+  }
+
+  .visit-us {
+    margin: .4em .5em;
+  }
+
+}
+
+@media only screen and (min-width: 46em){
+
+  .customer-one-img {
+    float: left;
+    width: 6em;
+    margin: 1em .5em;
+  }
+
+  .customer-one {
+    text-align: left;
+    margin: 2.2em 1.8em;
+    font-size: 1.2em;
+  }
+
+  .customer-two-img {
+    float: left;
+    width: 6em;
+    margin: 1em .5em;
+  }
+
+  .customer-two {
+    text-align: left;
+    margin: 3.5em 1.8em 1.5em;
+    font-size: 1.2em;
+  }
+
+  .chocolate-cookies-img, .chocolate-shells-img, .red-velvet-img {
+    width: 20em;
+  }
+
+  .our-shop, .chocolate-tasting, .since, .volcano-bites {
+    font-size: 1.2em;
   }
 
 }
